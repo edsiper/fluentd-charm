@@ -1,0 +1,19 @@
+name: fluentd
+summary: Logging layer / Data Collector
+maintainer: Eduardo Silva <eduardo@trasure-data.com>
+description: |
+
+tags:
+  - analytics
+  - big_data
+  - monitoring
+subordinate: false
+provides:
+  website:
+    interface: http
+#requires:
+#  requires-relation:
+#    interface: interface-name
+#peers:
+#  peer-relation:
+#   interface: interface-name

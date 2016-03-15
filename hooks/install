@@ -1,0 +1,23 @@
+#!/bin/bash
+
+curl -L https://toolbelt.treasuredata.com/sh/install-ubuntu-trusty-td-agent2.sh | sh
+
+# Install packages
+#apt-get install -y bundler git
+
+# Get Fluentd source code and checkout the latest from 0.12 branch
+#git clone https://github.com/fluent/fluentd.git
+#cd fluentd
+#git checkout -b v0.12 origin/v0.12
+
+# Install Fluentd requirements and package the gem
+#bundle install
+#bundle exec rake build
+
+# Install Fluentd gem
+#gem install pkg/`ls -t pkg/`
+
+# Install Fluentd output plugins:
+#gem install \
+#    fluent-plugin-elasticsearch \
+#    fluent-plugin-mongo \
